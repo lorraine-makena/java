@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+ string jina[5]={"Raine","mimi","you","kena","sisi"};
+    cout<<jina[3]<<endl;
+ jina[4]="mark";
+
+cout<<jina[4]<<endl;
+   
+   
+  int p=3;
+    
+  cout<<jina[p+1]<<endl;
+   
+    //cout<<jina[3+1];
+   
+  cout<<jina[7];
+   
+    return 0;
+}
